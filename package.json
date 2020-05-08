@@ -1,0 +1,20 @@
+{
+	"name": "SUG",
+	"version": "1.0.0",
+	"description": "Solution Build",
+	"main": "gulpfile.js",
+	"dependencies": {
+		"glob": "7.1.1",
+		"gulp": "3.9.1",
+		"gulp-color": "0.0.2",
+		"gulp-debug": "3.0.0",
+		"gulp-entity-convert": "0.0.2",
+		"gulp-foreach": "^0.1.0",
+		"gulp-msbuild": "0.6.2",
+		"gulp-rimraf": "^0.2.1",
+		"gulp-zip": "4.0.0",
+		"merge-stream": "1.0.1",
+		"natives": "1.1.6",
+		"run-sequence": "1.2.2"
+	}
+}

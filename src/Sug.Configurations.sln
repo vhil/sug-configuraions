@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sug.Project.Environment", "Sug.Project.Environment\Sug.Project.Environment.csproj", "{F2FCD0C3-0095-42B4-BEDC-779199FEC9C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{21DA80E1-CEDF-4BCF-9A35-89EE2AB0B67F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{0402BB2B-B769-4D36-A6D8-EDB671CA3F6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".configuration", ".configuration", "{37D9FF53-16AE-44D4-822B-297953140765}"
+	ProjectSection(SolutionItems) = preProject
+		..\gulp-config.js = ..\gulp-config.js
+		..\gulpfile.js = ..\gulpfile.js
+		..\package.json = ..\package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F2A3F93B-5F5D-4467-80BA-3329EBBDC818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sug.Feature.Configurations", "Sug.Feature.Configurations\Sug.Feature.Configurations.csproj", "{A7AEFB2B-422B-4174-BC39-C80E331BE367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2FCD0C3-0095-42B4-BEDC-779199FEC9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FCD0C3-0095-42B4-BEDC-779199FEC9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FCD0C3-0095-42B4-BEDC-779199FEC9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FCD0C3-0095-42B4-BEDC-779199FEC9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7AEFB2B-422B-4174-BC39-C80E331BE367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AEFB2B-422B-4174-BC39-C80E331BE367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AEFB2B-422B-4174-BC39-C80E331BE367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AEFB2B-422B-4174-BC39-C80E331BE367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2FCD0C3-0095-42B4-BEDC-779199FEC9C4} = {0402BB2B-B769-4D36-A6D8-EDB671CA3F6D}
+		{A7AEFB2B-422B-4174-BC39-C80E331BE367} = {21DA80E1-CEDF-4BCF-9A35-89EE2AB0B67F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61289C91-E608-4A2A-9FA3-7E152E519EB5}
+	EndGlobalSection
+EndGlobal
