@@ -10,7 +10,7 @@
 		public void Configure(IServiceCollection serviceCollection)
 		{
 			serviceCollection.AddTransient<MyClass8>(provider => 
-				Factory.CreateObject("feature/myfeature/myclass8", false) as MyClass8);
+				Factory.CreateObject("feature/configurations/myclass8", false) as MyClass8);
 		}
 	}
 }
