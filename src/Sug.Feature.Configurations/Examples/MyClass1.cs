@@ -2,5 +2,6 @@
 {
 	public class MyClass1
 	{
+		public virtual void DoStuff() { }
 	}
 }
