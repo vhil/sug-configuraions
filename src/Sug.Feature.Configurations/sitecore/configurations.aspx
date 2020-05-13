@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="examples.aspx.cs" Inherits="Sug.Feature.Configurations.sitecore.Examples" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="configurations.aspx.cs" Inherits="Sug.Feature.Configurations.sitecore.Configurations" %>
 
 <!DOCTYPE html>
 
