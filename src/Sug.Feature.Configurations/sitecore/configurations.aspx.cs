@@ -28,8 +28,6 @@
 			var myclass9 =  Factory.CreateObject("feature/configurations/myclass9", false) as MyClass9;
 			var myclass91 = Factory.CreateObject("feature/configurations/myclass91", false) as MyClass9;
 
-			var myclass81 = ServiceLocator.ServiceProvider.GetService<MyClass8>();
-
 			#endregion
 
 			#region rss feeds

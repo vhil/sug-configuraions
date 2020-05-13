@@ -1,6 +1,5 @@
 ﻿namespace Sug.Foundation.Rss
 {
-	using System;
 	using Configuration;
 	using Sitecore.Abstractions;
 
@@ -19,7 +18,10 @@
 
 		public virtual IRssFeed Read()
 		{
-			throw new NotImplementedException();
+			this.Log.Info($"Reading RSS feed from '{this.FeedSettings.FeedUrl}' with interval of {this.FeedSettings.Ttl}...", this);
+
+			//TODO
+			return null;
 		}
 	}
 }
